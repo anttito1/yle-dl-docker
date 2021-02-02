@@ -1,5 +1,4 @@
-FROM alpine:latest
-LABEL maintainer="Timo Taskinen <timo.taskinen@iki.fi>"
+FROM balenalib/raspberrypi3-alpine:latest
 
 RUN apk add --no-cache \
     bash \
